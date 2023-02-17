@@ -2,6 +2,8 @@
 
 /**
  * main - function returns a value in byte
+ *
+ * return - value of 0
  */
 int main(void)
 {
