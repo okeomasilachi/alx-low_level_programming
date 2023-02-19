@@ -3,9 +3,9 @@
 #include <time.h>
 
 /**
- * main - entrypoint
+ *main - Print combinations of two digit numbers
  *
- * return:the programe returns 0
+ *Return: Always 0 (Success)
  */
 int main(void)
 {
