@@ -1,9 +1,9 @@
 #include <unistd.h>
 
 /**
- * main - the entrypoint
+ *main - Print combinations of two digit numbers
  *
- * return - the programe returns 1
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
