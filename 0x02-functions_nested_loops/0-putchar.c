@@ -5,6 +5,8 @@
  *
  * Return: success
  */
+
+int _putchar(char c);
 int main(void)
 {
 	int o;
