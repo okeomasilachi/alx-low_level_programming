@@ -1,5 +1,3 @@
-/*#include "_putchar.c"*/
-
 /**
  * main - entry point of program
  *
@@ -17,5 +15,5 @@ int main(void)
 			_putchar(o[k]);
 			}
 			_putchar('\n');
-		return (1);
+		return (0);
 }
