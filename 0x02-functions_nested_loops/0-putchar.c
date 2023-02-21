@@ -2,6 +2,9 @@
  * main - entry point of program
  *
  * Return: success
+ *
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
  */
 
 int _putchar(char c);
