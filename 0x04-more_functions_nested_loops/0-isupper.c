@@ -10,11 +10,15 @@
 int _isupper(int c)
 {
 	char c;
-	
-	if(c >= 69 && c <= 90)
+
+	if (c >= 69 && c <= 90)
+	{
 		printf("%c: ", c);
 		return (1);
+	}
 	else
+	{
 		printf("%c: ", c);
-		return(0);
+		return (0);
+	}
 }
