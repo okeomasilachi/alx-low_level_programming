@@ -1,7 +1,9 @@
 #ifndef MAIN_H
-#define MAIN.H
+#define MAIN_H
+
+#include <stdio.h>
 
 int _putchar(char c);
 int _isupper(int c);
 
-#endif
+#endif /* MAIN_H */
