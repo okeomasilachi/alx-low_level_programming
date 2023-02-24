@@ -5,7 +5,7 @@
  *
  * Return: success
  *
- * _putchar - writes the character c to stdout
+ * print_numbers - prints numbers from 0 to 9
  */
 
 void print_numbers(void)
