@@ -10,13 +10,11 @@
 
 void print_numbers(void)
 {
-	int o;
+	int o = 0;
 
-	char k[] = "0123456789";
-
-	for (o = 0; o < 10; o++)
+	for (o = 0; o <= 9; o++)
 	{
-		_putchar(o[k]);
+		_putchar(o);
 	}
 	_putchar('\n');
 
