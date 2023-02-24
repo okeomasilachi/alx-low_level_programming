@@ -6,10 +6,9 @@
  * Return: success
  *
  * _putchar - writes the character c to stdout
- * @c: The character to print
  */
 
-int main(void)
+void print_numbers(void)
 {
 	int o;
 
