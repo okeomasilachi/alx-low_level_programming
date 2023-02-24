@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
-* _isupper - Checks for uppercase Alphabets.
-* @c: The parameter to be checked.
-*
-* Return: 1 if Alphabet is uppercase, 0 otherwise.
-*/
+ * _isdigit - Checks if variable is a digit.
+ * @c: The parameter to be checked.
+ *
+ * Return: 1 c is a number, 0 otherwise.
+ */
 
 int _isdigit(int c)
 {
