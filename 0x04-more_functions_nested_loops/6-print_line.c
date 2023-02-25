@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_line - prints the character _ the number of times pecified
+ * print_line - prints the character "_" the number of times pecified
  * @n: specified number of times
  * Return: success 0
  */
