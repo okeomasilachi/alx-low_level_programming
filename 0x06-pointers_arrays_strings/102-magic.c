@@ -1,11 +1,5 @@
 #include <stdio.h>
 
-/**
- * main - enrty point
- *
- * Return: success
- */
-
 int main(void)
 {
 	int n;
