@@ -3,13 +3,14 @@
 /**
  * _strpbrk - entry point
  * @s: string to check
- * @accept: compiar 
+ * @accept: compiar
  * Return: success
  */
 
 char *_strpbrk(char *s, char *accept)
 {
 	int i;
+
 	while (*s)
 	{
 		for (i = 0; accept[i]; i++)
