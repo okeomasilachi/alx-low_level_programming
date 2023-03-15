@@ -1,26 +1,30 @@
-#ifndef MAIN_H
-#define MAIN_H
-
+#include "main.h"
 #include <stdio.h>
-#include <string.h>
-#include <unistd.h>
-#include <math.h>
 
+/**
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
+int main(void)
+{
+    int r;
 
-int _strlen_recursion(char *s);
-int _putchar(char c);
-void _puts_recursion(char *s);
-void _print_rev_recursion(char *s);
-int factorial(int n);
-int _pow_recursion(int x, int y);
-int _sqrt_recursion(int n);
-
-
-
-
-
-
-
-
-
-#endif /* MAIN_H */
+    r = is_prime_number(1);
+    printf("%d\n", r);
+    r = is_prime_number(1024);
+    printf("%d\n", r);
+    r = is_prime_number(16);
+    printf("%d\n", r);
+    r = is_prime_number(17);
+    printf("%d\n", r);
+    r = is_prime_number(25);
+    printf("%d\n", r);
+    r = is_prime_number(-1);
+    printf("%d\n", r);
+    r = is_prime_number(113);
+    printf("%d\n", r);
+    r = is_prime_number(7919);
+    printf("%d\n", r);
+    return (0);
+}
