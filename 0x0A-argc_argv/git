@@ -1,2 +1,2 @@
 #!/bin/bash
-git add . && git commit -m "task done" && git push && echo "Okeomasilachi" && echo "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" && l
+git add . && git commit -m "task done" && git push
