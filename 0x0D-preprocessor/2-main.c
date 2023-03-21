@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints the name os the souce file the 
+ * main - prints the name os the souce file the
  *		program was complied form
  *
  * Return: void
