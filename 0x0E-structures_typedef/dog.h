@@ -8,6 +8,7 @@
  * @age: age of dog
  * @owner: owner of the dog
  *
+ * Description: a data tyoe for dog
  */
 
 struct dog
