@@ -11,6 +11,8 @@
  * Description: a data tyoe for dog
  */
 
+#include <stdio.h>
+
 struct dog
 {
 	char *name;
@@ -19,5 +21,11 @@ struct dog
 };
 
 void init_dog(struct dog *d, char *name, float age, char *owner);
+void print_dog(struct dog *d);
+
+
+
+
+
 
 #endif /* DOG_H */
