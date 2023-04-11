@@ -9,12 +9,14 @@
  */
 int set_bit(unsigned long int *n, unsigned int index)
 {
-	int k = index;
+	int y = -1;
 
-	*n |= BV << k;
+	*n |= BV << index;
 
-	if (*n << k == '1')
-		return (-1);
-	else
-		return (1);
+	if (*n << index == '1')
+	{
+		y = 1;
+	}
+
+	return (y);
 }
