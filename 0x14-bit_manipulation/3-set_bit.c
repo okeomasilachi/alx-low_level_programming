@@ -9,12 +9,12 @@
  */
 int set_bit(unsigned long int *n, unsigned int index)
 {
-	int y = -1;
+	int y = 1;
 
 
 	if (*n << index == '1')
 	{
-		y = 1;
+		y = -1;
 	}
 
 	*n |= BV << index;
