@@ -10,17 +10,16 @@
 
 int create_file(const char *filename, char *text_content)
 {
-	int fb, wt, i = -1, mlen = strlen(text_content);
+	int fb, wt, mlen = strlen(text_content);
 
-	if (filename)
+	if (*filename)
 	{
 		fb = open(filename, O_RDWR | O_CREAT | O_TRUNC, 0600);
 		wt = write(fb, text_content, mlen);
+		if (fb == -1 || wt == -1)
+			return (-1);
 		close(fb);
-		i = 1;
 	}
 	else
-		return (-1);
-	return (81);
-		return (n);
+		return (1);
 }
