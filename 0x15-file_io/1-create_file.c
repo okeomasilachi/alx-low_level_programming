@@ -12,12 +12,12 @@ int create_file(const char *filename, char *text_content)
 {
 	int fb, wt, mlen = strlen(text_content);
 
-	if (*filename)
+	if (filename)
 	{
-		while (*filename == NULL)
+		while (filename == '\0')
 			return (-1);
 
-		if (filename != NULL)
+		if (filename)
 		{
 			fb = open(filename, O_RDWR | O_CREAT | O_TRUNC, 0600);
 			wt = write(fb, text_content, mlen);
