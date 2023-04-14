@@ -2,16 +2,11 @@
 
 int main()
 {
-	int fd, n;
-	char rbuf[OKWI];
-	int i, k = 114;
-	fd = open("Requiescat", O_RDONLY);
-	n = read(fd, rbuf, OKWI);
-	/*k = strlen(rbuf);*/
-	for (i = 0; i < k; i++)
-		write(1, &rbuf[i],1);
-	close(fd);
-	putchar('\n');
-	printf("%d", n);
-	return (n);
+	int fb;
+	char *m = "okeoma is a boy";
+	int wt, mlen = strlen(m);
+	fb = open("ok", O_WRONLY | O_APPEND);
+	wt = write (fb, m, mlen);
+	close(fb);
+	return (wt);
 }
