@@ -1,0 +1,1054 @@
+Dump of assembler code for function main:
+   0x0000000000400675 <+0>:	push   %rbp
+   0x0000000000400676 <+1>:	mov    %rsp,%rbp
+   0x0000000000400679 <+4>:	sub    $0x20,%rsp
+   0x000000000040067d <+8>:	mov    %edi,-0x14(%rbp)
+   0x0000000000400680 <+11>:	mov    %rsi,-0x20(%rbp)
+   0x0000000000400684 <+15>:	cmpl   $0x2,-0x14(%rbp)
+   0x0000000000400688 <+19>:	je     0x4006b1 <main+60>
+   0x000000000040068a <+21>:	mov    -0x20(%rbp),%rax
+   0x000000000040068e <+25>:	mov    (%rax),%rdx
+   0x0000000000400691 <+28>:	mov    0x2009c8(%rip),%rax        # 0x601060 <stderr@@GLIBC_2.2.5>
+   0x0000000000400698 <+35>:	mov    $0x400774,%esi
+   0x000000000040069d <+40>:	mov    %rax,%rdi
+   0x00000000004006a0 <+43>:	mov    $0x0,%eax
+   0x00000000004006a5 <+48>:	callq  0x4004e0 <fprintf@plt>
+    0x00000000004006aa <+53>:	mov    $0x1,%eax
+   0x00000000004006af <+58>:	jmp    0x4006ed <main+120>
+   0x00000000004006b1 <+60>:	mov    -0x20(%rbp),%rax
+   0x00000000004006b5 <+64>:	add    $0x8,%rax
+   0x00000000004006b9 <+68>:	mov    (%rax),%rax
+   0x00000000004006bc <+71>:	mov    %rax,%rdi
+   0x00000000004006bf <+74>:	callq  0x4005f6 <check_password>
+   0x00000000004006c4 <+79>:	mov    %eax,-0x4(%rbp)
+   0x00000000004006c7 <+82>:	cmpl   $0x1,-0x4(%rbp)
+   0x00000000004006cb <+86>:	jne    0x4006de 
+0>
+   0x00000000004006de <+105>:	mov    $0x400799,%edi
+   0x00000000004006e3 <+110>:	callq  0x4004b0 <puts@plt>
+   0x00000000004006e8 <+115>:	mov    $0x1,%eax
+   0x00000000004006ed <+120>:	leaveq 
+   0x00000000004006ee <+121>:	retq   
+End of assembler dump.
+<main+105>
+   0x00000000004006cd <+88>:	mov    $0x400
+Dump of assembler code for function main:
+   0x0000000000400675 <+0>:	push   %rbp
+   0x0000000000400676 <+1>:	mov    %rsp,%rbp
+   0x0000000000400679 <+4>:	sub    $0x20,%rsp
+   0x000000000040067d <+8>:	mov    %edi,-0x14(%rbp)
+   0x0000000000400680 <+11>:	mov    %rsi,-0x20(%rbp)
+   0x0000000000400684 <+15>:	cmpl   $0x2,-0x14(%rbp)
+   0x0000000000400688 <+19>:	je     0x4006b1 <main+60>
+   0x000000000040068a <+21>:	mov    -0x20(%rbp),%rax
+   0x000000000040068e <+25>:	mov    (%rax),%rdx
+   0x0000000000400691 <+28>:	mov    0x2009c8(%rip),%rax        # 0x601060 <stderr@@GLIBC_2.2.5>
+   0x0000000000400698 <+35>:	mov    $0x400774,%esi
+   0x000000000040069d <+40>:	mov    %rax,%rdi
+   0x00000000004006a0 <+43>:	mov    $0x0,%eax
+   0x00000000004006a5 <+48>:	callq  0x4004e0 <fprintf@plt>
+    0x00000000004006aa <+53>:	mov    $0x1,%eax
+   0x00000000004006af <+58>:	jmp    0x4006ed <main+120>
+   0x00000000004006b1 <+60>:	mov    -0x20(%rbp),%rax
+   0x00000000004006b5 <+64>:	add    $0x8,%rax
+   0x00000000004006b9 <+68>:	mov    (%rax),%rax
+   0x00000000004006bc <+71>:	mov    %rax,%rdi
+   0x00000000004006bf <+74>:	callq  0x4005f6 <check_password>
+   0x00000000004006c4 <+79>:	mov    %eax,-0x4(%rbp)
+   0x00000000004006c7 <+82>:	cmpl   $0x1,-0x4(%rbp)
+   0x00000000004006cb <+86>:	jne    0x4006de 
+0>
+   0x00000000004006de <+105>:	mov    $0x400799,%edi
+   0x00000000004006e3 <+110>:	callq  0x4004b0 <puts@plt>
+   0x00000000004006e8 <+115>:	mov    $0x1,%eax
+   0x00000000004006ed <+120>:	leaveq 
+   0x00000000004006ee <+121>:	retq   
+End of assembler dump.
+<main+105>
+   0x00000000004006cd <+88>:	mov    $0x400
+Dump of assembler code for function main:
+   0x0000000000400675 <+0>:	push   %rbp
+   0x0000000000400676 <+1>:	mov    %rsp,%rbp
+   0x0000000000400679 <+4>:	sub    $0x20,%rsp
+   0x000000000040067d <+8>:	mov    %edi,-0x14(%rbp)
+   0x0000000000400680 <+11>:	mov    %rsi,-0x20(%rbp)
+   0x0000000000400684 <+15>:	cmpl   $0x2,-0x14(%rbp)
+   0x0000000000400688 <+19>:	je     0x4006b1 <main+60>
+   0x000000000040068a <+21>:	mov    -0x20(%rbp),%rax
+   0x000000000040068e <+25>:	mov    (%rax),%rdx
+   0x0000000000400691 <+28>:	mov    0x2009c8(%rip),%rax        # 0x601060 <stderr@@GLIBC_2.2.5>
+   0x0000000000400698 <+35>:	mov    $0x400774,%esi
+   0x000000000040069d <+40>:	mov    %rax,%rdi
+   0x00000000004006a0 <+43>:	mov    $0x0,%eax
+   0x00000000004006a5 <+48>:	callq  0x4004e0 <fprintf@plt>
+    0x00000000004006aa <+53>:	mov    $0x1,%eax
+   0x00000000004006af <+58>:	jmp    0x4006ed <main+120>
+   0x00000000004006b1 <+60>:	mov    -0x20(%rbp),%rax
+   0x00000000004006b5 <+64>:	add    $0x8,%rax
+   0x00000000004006b9 <+68>:	mov    (%rax),%rax
+   0x00000000004006bc <+71>:	mov    %rax,%rdi
+   0x00000000004006bf <+74>:	callq  0x4005f6 <check_password>
+   0x00000000004006c4 <+79>:	mov    %eax,-0x4(%rbp)
+   0x00000000004006c7 <+82>:	cmpl   $0x1,-0x4(%rbp)
+   0x00000000004006cb <+86>:	jne    0x4006de 
+0>
+   0x00000000004006de <+105>:	mov    $0x400799,%edi
+   0x00000000004006e3 <+110>:	callq  0x4004b0 <puts@plt>
+   0x00000000004006e8 <+115>:	mov    $0x1,%eax
+   0x00000000004006ed <+120>:	leaveq 
+   0x00000000004006ee <+121>:	retq   
+End of assembler dump.
+<main+105>
+   0x00000000004006cd <+88>:	mov    $0x400
+Dump of assembler code for function main:
+   0x0000000000400675 <+0>:	push   %rbp
+   0x0000000000400676 <+1>:	mov    %rsp,%rbp
+   0x0000000000400679 <+4>:	sub    $0x20,%rsp
+   0x000000000040067d <+8>:	mov    %edi,-0x14(%rbp)
+   0x0000000000400680 <+11>:	mov    %rsi,-0x20(%rbp)
+   0x0000000000400684 <+15>:	cmpl   $0x2,-0x14(%rbp)
+   0x0000000000400688 <+19>:	je     0x4006b1 <main+60>
+   0x000000000040068a <+21>:	mov    -0x20(%rbp),%rax
+   0x000000000040068e <+25>:	mov    (%rax),%rdx
+   0x0000000000400691 <+28>:	mov    0x2009c8(%rip),%rax        # 0x601060 <stderr@@GLIBC_2.2.5>
+   0x0000000000400698 <+35>:	mov    $0x400774,%esi
+   0x000000000040069d <+40>:	mov    %rax,%rdi
+   0x00000000004006a0 <+43>:	mov    $0x0,%eax
+   0x00000000004006a5 <+48>:	callq  0x4004e0 <fprintf@plt>
+    0x00000000004006aa <+53>:	mov    $0x1,%eax
+   0x00000000004006af <+58>:	jmp    0x4006ed <main+120>
+   0x00000000004006b1 <+60>:	mov    -0x20(%rbp),%rax
+   0x00000000004006b5 <+64>:	add    $0x8,%rax
+   0x00000000004006b9 <+68>:	mov    (%rax),%rax
+   0x00000000004006bc <+71>:	mov    %rax,%rdi
+   0x00000000004006bf <+74>:	callq  0x4005f6 <check_password>
+   0x00000000004006c4 <+79>:	mov    %eax,-0x4(%rbp)
+   0x00000000004006c7 <+82>:	cmpl   $0x1,-0x4(%rbp)
+   0x00000000004006cb <+86>:	jne    0x4006de 
+0>
+   0x00000000004006de <+105>:	mov    $0x400799,%edi
+   0x00000000004006e3 <+110>:	callq  0x4004b0 <puts@plt>
+   0x00000000004006e8 <+115>:	mov    $0x1,%eax
+   0x00000000004006ed <+120>:	leaveq 
+   0x00000000004006ee <+121>:	retq   
+End of assembler dump.
+<main+105>
+   0x00000000004006cd <+88>:	mov    $0x400
+Dump of assembler code for function main:
+   0x0000000000400675 <+0>:	push   %rbp
+   0x0000000000400676 <+1>:	mov    %rsp,%rbp
+   0x0000000000400679 <+4>:	sub    $0x20,%rsp
+   0x000000000040067d <+8>:	mov    %edi,-0x14(%rbp)
+   0x0000000000400680 <+11>:	mov    %rsi,-0x20(%rbp)
+   0x0000000000400684 <+15>:	cmpl   $0x2,-0x14(%rbp)
+   0x0000000000400688 <+19>:	je     0x4006b1 <main+60>
+   0x000000000040068a <+21>:	mov    -0x20(%rbp),%rax
+   0x000000000040068e <+25>:	mov    (%rax),%rdx
+   0x0000000000400691 <+28>:	mov    0x2009c8(%rip),%rax        # 0x601060 <stderr@@GLIBC_2.2.5>
+   0x0000000000400698 <+35>:	mov    $0x400774,%esi
+   0x000000000040069d <+40>:	mov    %rax,%rdi
+   0x00000000004006a0 <+43>:	mov    $0x0,%eax
+   0x00000000004006a5 <+48>:	callq  0x4004e0 <fprintf@plt>
+    0x00000000004006aa <+53>:	mov    $0x1,%eax
+   0x00000000004006af <+58>:	jmp    0x4006ed <main+120>
+   0x00000000004006b1 <+60>:	mov    -0x20(%rbp),%rax
+   0x00000000004006b5 <+64>:	add    $0x8,%rax
+   0x00000000004006b9 <+68>:	mov    (%rax),%rax
+   0x00000000004006bc <+71>:	mov    %rax,%rdi
+   0x00000000004006bf <+74>:	callq  0x4005f6 <check_password>
+   0x00000000004006c4 <+79>:	mov    %eax,-0x4(%rbp)
+   0x00000000004006c7 <+82>:	cmpl   $0x1,-0x4(%rbp)
+   0x00000000004006cb <+86>:	jne    0x4006de 
+0>
+   0x00000000004006de <+105>:	mov    $0x400799,%edi
+   0x00000000004006e3 <+110>:	callq  0x4004b0 <puts@plt>
+   0x00000000004006e8 <+115>:	mov    $0x1,%eax
+   0x00000000004006ed <+120>:	leaveq 
+   0x00000000004006ee <+121>:	retq   
+End of assembler dump.
+<main+105>
+   0x00000000004006cd <+88>:	mov    $0x400
+Dump of assembler code for function main:
+   0x0000000000400675 <+0>:	push   %rbp
+   0x0000000000400676 <+1>:	mov    %rsp,%rbp
+   0x0000000000400679 <+4>:	sub    $0x20,%rsp
+   0x000000000040067d <+8>:	mov    %edi,-0x14(%rbp)
+   0x0000000000400680 <+11>:	mov    %rsi,-0x20(%rbp)
+   0x0000000000400684 <+15>:	cmpl   $0x2,-0x14(%rbp)
+   0x0000000000400688 <+19>:	je     0x4006b1 <main+60>
+   0x000000000040068a <+21>:	mov    -0x20(%rbp),%rax
+   0x000000000040068e <+25>:	mov    (%rax),%rdx
+   0x0000000000400691 <+28>:	mov    0x2009c8(%rip),%rax        # 0x601060 <stderr@@GLIBC_2.2.5>
+   0x0000000000400698 <+35>:	mov    $0x400774,%esi
+   0x000000000040069d <+40>:	mov    %rax,%rdi
+   0x00000000004006a0 <+43>:	mov    $0x0,%eax
+   0x00000000004006a5 <+48>:	callq  0x4004e0 <fprintf@plt>
+    0x00000000004006aa <+53>:	mov    $0x1,%eax
+   0x00000000004006af <+58>:	jmp    0x4006ed <main+120>
+   0x00000000004006b1 <+60>:	mov    -0x20(%rbp),%rax
+   0x00000000004006b5 <+64>:	add    $0x8,%rax
+   0x00000000004006b9 <+68>:	mov    (%rax),%rax
+   0x00000000004006bc <+71>:	mov    %rax,%rdi
+   0x00000000004006bf <+74>:	callq  0x4005f6 <check_password>
+   0x00000000004006c4 <+79>:	mov    %eax,-0x4(%rbp)
+   0x00000000004006c7 <+82>:	cmpl   $0x1,-0x4(%rbp)
+   0x00000000004006cb <+86>:	jne    0x4006de 
+0>
+   0x00000000004006de <+105>:	mov    $0x400799,%edi
+   0x00000000004006e3 <+110>:	callq  0x4004b0 <puts@plt>
+   0x00000000004006e8 <+115>:	mov    $0x1,%eax
+   0x00000000004006ed <+120>:	leaveq 
+   0x00000000004006ee <+121>:	retq   
+End of assembler dump.
+<main+105>
+   0x00000000004006cd <+88>:	mov    $0x400
+Dump of assembler code for function main:
+   0x0000000000400675 <+0>:	push   %rbp
+   0x0000000000400676 <+1>:	mov    %rsp,%rbp
+   0x0000000000400679 <+4>:	sub    $0x20,%rsp
+   0x000000000040067d <+8>:	mov    %edi,-0x14(%rbp)
+   0x0000000000400680 <+11>:	mov    %rsi,-0x20(%rbp)
+   0x0000000000400684 <+15>:	cmpl   $0x2,-0x14(%rbp)
+   0x0000000000400688 <+19>:	je     0x4006b1 <main+60>
+   0x000000000040068a <+21>:	mov    -0x20(%rbp),%rax
+   0x000000000040068e <+25>:	mov    (%rax),%rdx
+   0x0000000000400691 <+28>:	mov    0x2009c8(%rip),%rax        # 0x601060 <stderr@@GLIBC_2.2.5>
+   0x0000000000400698 <+35>:	mov    $0x400774,%esi
+   0x000000000040069d <+40>:	mov    %rax,%rdi
+   0x00000000004006a0 <+43>:	mov    $0x0,%eax
+   0x00000000004006a5 <+48>:	callq  0x4004e0 <fprintf@plt>
+    0x00000000004006aa <+53>:	mov    $0x1,%eax
+   0x00000000004006af <+58>:	jmp    0x4006ed <main+120>
+   0x00000000004006b1 <+60>:	mov    -0x20(%rbp),%rax
+   0x00000000004006b5 <+64>:	add    $0x8,%rax
+   0x00000000004006b9 <+68>:	mov    (%rax),%rax
+   0x00000000004006bc <+71>:	mov    %rax,%rdi
+   0x00000000004006bf <+74>:	callq  0x4005f6 <check_password>
+   0x00000000004006c4 <+79>:	mov    %eax,-0x4(%rbp)
+   0x00000000004006c7 <+82>:	cmpl   $0x1,-0x4(%rbp)
+   0x00000000004006cb <+86>:	jne    0x4006de 
+0>
+   0x00000000004006de <+105>:	mov    $0x400799,%edi
+   0x00000000004006e3 <+110>:	callq  0x4004b0 <puts@plt>
+   0x00000000004006e8 <+115>:	mov    $0x1,%eax
+   0x00000000004006ed <+120>:	leaveq 
+   0x00000000004006ee <+121>:	retq   
+End of assembler dump.
+<main+105>
+   0x00000000004006cd <+88>:	mov    $0x400
+Dump of assembler code for function main:
+   0x0000000000400675 <+0>:	push   %rbp
+   0x0000000000400676 <+1>:	mov    %rsp,%rbp
+   0x0000000000400679 <+4>:	sub    $0x20,%rsp
+   0x000000000040067d <+8>:	mov    %edi,-0x14(%rbp)
+   0x0000000000400680 <+11>:	mov    %rsi,-0x20(%rbp)
+   0x0000000000400684 <+15>:	cmpl   $0x2,-0x14(%rbp)
+   0x0000000000400688 <+19>:	je     0x4006b1 <main+60>
+   0x000000000040068a <+21>:	mov    -0x20(%rbp),%rax
+   0x000000000040068e <+25>:	mov    (%rax),%rdx
+   0x0000000000400691 <+28>:	mov    0x2009c8(%rip),%rax        # 0x601060 <stderr@@GLIBC_2.2.5>
+   0x0000000000400698 <+35>:	mov    $0x400774,%esi
+   0x000000000040069d <+40>:	mov    %rax,%rdi
+   0x00000000004006a0 <+43>:	mov    $0x0,%eax
+   0x00000000004006a5 <+48>:	callq  0x4004e0 <fprintf@plt>
+    0x00000000004006aa <+53>:	mov    $0x1,%eax
+   0x00000000004006af <+58>:	jmp    0x4006ed <main+120>
+   0x00000000004006b1 <+60>:	mov    -0x20(%rbp),%rax
+   0x00000000004006b5 <+64>:	add    $0x8,%rax
+   0x00000000004006b9 <+68>:	mov    (%rax),%rax
+   0x00000000004006bc <+71>:	mov    %rax,%rdi
+   0x00000000004006bf <+74>:	callq  0x4005f6 <check_password>
+   0x00000000004006c4 <+79>:	mov    %eax,-0x4(%rbp)
+   0x00000000004006c7 <+82>:	cmpl   $0x1,-0x4(%rbp)
+   0x00000000004006cb <+86>:	jne    0x4006de 
+0>
+   0x00000000004006de <+105>:	mov    $0x400799,%edi
+   0x00000000004006e3 <+110>:	callq  0x4004b0 <puts@plt>
+   0x00000000004006e8 <+115>:	mov    $0x1,%eax
+   0x00000000004006ed <+120>:	leaveq 
+   0x00000000004006ee <+121>:	retq   
+End of assembler dump.
+<main+105>
+   0x00000000004006cd <+88>:	mov    $0x400
+Dump of assembler code for function main:
+   0x0000000000400675 <+0>:	push   %rbp
+   0x0000000000400676 <+1>:	mov    %rsp,%rbp
+   0x0000000000400679 <+4>:	sub    $0x20,%rsp
+   0x000000000040067d <+8>:	mov    %edi,-0x14(%rbp)
+   0x0000000000400680 <+11>:	mov    %rsi,-0x20(%rbp)
+   0x0000000000400684 <+15>:	cmpl   $0x2,-0x14(%rbp)
+   0x0000000000400688 <+19>:	je     0x4006b1 <main+60>
+   0x000000000040068a <+21>:	mov    -0x20(%rbp),%rax
+   0x000000000040068e <+25>:	mov    (%rax),%rdx
+   0x0000000000400691 <+28>:	mov    0x2009c8(%rip),%rax        # 0x601060 <stderr@@GLIBC_2.2.5>
+   0x0000000000400698 <+35>:	mov    $0x400774,%esi
+   0x000000000040069d <+40>:	mov    %rax,%rdi
+   0x00000000004006a0 <+43>:	mov    $0x0,%eax
+   0x00000000004006a5 <+48>:	callq  0x4004e0 <fprintf@plt>
+    0x00000000004006aa <+53>:	mov    $0x1,%eax
+   0x00000000004006af <+58>:	jmp    0x4006ed <main+120>
+   0x00000000004006b1 <+60>:	mov    -0x20(%rbp),%rax
+   0x00000000004006b5 <+64>:	add    $0x8,%rax
+   0x00000000004006b9 <+68>:	mov    (%rax),%rax
+   0x00000000004006bc <+71>:	mov    %rax,%rdi
+   0x00000000004006bf <+74>:	callq  0x4005f6 <check_password>
+   0x00000000004006c4 <+79>:	mov    %eax,-0x4(%rbp)
+   0x00000000004006c7 <+82>:	cmpl   $0x1,-0x4(%rbp)
+   0x00000000004006cb <+86>:	jne    0x4006de 
+0>
+   0x00000000004006de <+105>:	mov    $0x400799,%edi
+   0x00000000004006e3 <+110>:	callq  0x4004b0 <puts@plt>
+   0x00000000004006e8 <+115>:	mov    $0x1,%eax
+   0x00000000004006ed <+120>:	leaveq 
+   0x00000000004006ee <+121>:	retq   
+End of assembler dump.
+<main+105>
+   0x00000000004006cd <+88>:	mov    $0x400
+Dump of assembler code for function main:
+   0x0000000000400675 <+0>:	push   %rbp
+   0x0000000000400676 <+1>:	mov    %rsp,%rbp
+   0x0000000000400679 <+4>:	sub    $0x20,%rsp
+   0x000000000040067d <+8>:	mov    %edi,-0x14(%rbp)
+   0x0000000000400680 <+11>:	mov    %rsi,-0x20(%rbp)
+   0x0000000000400684 <+15>:	cmpl   $0x2,-0x14(%rbp)
+   0x0000000000400688 <+19>:	je     0x4006b1 <main+60>
+   0x000000000040068a <+21>:	mov    -0x20(%rbp),%rax
+   0x000000000040068e <+25>:	mov    (%rax),%rdx
+   0x0000000000400691 <+28>:	mov    0x2009c8(%rip),%rax        # 0x601060 <stderr@@GLIBC_2.2.5>
+   0x0000000000400698 <+35>:	mov    $0x400774,%esi
+   0x000000000040069d <+40>:	mov    %rax,%rdi
+   0x00000000004006a0 <+43>:	mov    $0x0,%eax
+   0x00000000004006a5 <+48>:	callq  0x4004e0 <fprintf@plt>
+    0x00000000004006aa <+53>:	mov    $0x1,%eax
+   0x00000000004006af <+58>:	jmp    0x4006ed <main+120>
+   0x00000000004006b1 <+60>:	mov    -0x20(%rbp),%rax
+   0x00000000004006b5 <+64>:	add    $0x8,%rax
+   0x00000000004006b9 <+68>:	mov    (%rax),%rax
+   0x00000000004006bc <+71>:	mov    %rax,%rdi
+   0x00000000004006bf <+74>:	callq  0x4005f6 <check_password>
+   0x00000000004006c4 <+79>:	mov    %eax,-0x4(%rbp)
+   0x00000000004006c7 <+82>:	cmpl   $0x1,-0x4(%rbp)
+   0x00000000004006cb <+86>:	jne    0x4006de 
+0>
+   0x00000000004006de <+105>:	mov    $0x400799,%edi
+   0x00000000004006e3 <+110>:	callq  0x4004b0 <puts@plt>
+   0x00000000004006e8 <+115>:	mov    $0x1,%eax
+   0x00000000004006ed <+120>:	leaveq 
+   0x00000000004006ee <+121>:	retq   
+End of assembler dump.
+<main+105>
+   0x00000000004006cd <+88>:	mov    $0x400
+Dump of assembler code for function main:
+   0x0000000000400675 <+0>:	push   %rbp
+   0x0000000000400676 <+1>:	mov    %rsp,%rbp
+   0x0000000000400679 <+4>:	sub    $0x20,%rsp
+   0x000000000040067d <+8>:	mov    %edi,-0x14(%rbp)
+   0x0000000000400680 <+11>:	mov    %rsi,-0x20(%rbp)
+   0x0000000000400684 <+15>:	cmpl   $0x2,-0x14(%rbp)
+   0x0000000000400688 <+19>:	je     0x4006b1 <main+60>
+   0x000000000040068a <+21>:	mov    -0x20(%rbp),%rax
+   0x000000000040068e <+25>:	mov    (%rax),%rdx
+   0x0000000000400691 <+28>:	mov    0x2009c8(%rip),%rax        # 0x601060 <stderr@@GLIBC_2.2.5>
+   0x0000000000400698 <+35>:	mov    $0x400774,%esi
+   0x000000000040069d <+40>:	mov    %rax,%rdi
+   0x00000000004006a0 <+43>:	mov    $0x0,%eax
+   0x00000000004006a5 <+48>:	callq  0x4004e0 <fprintf@plt>
+    0x00000000004006aa <+53>:	mov    $0x1,%eax
+   0x00000000004006af <+58>:	jmp    0x4006ed <main+120>
+   0x00000000004006b1 <+60>:	mov    -0x20(%rbp),%rax
+   0x00000000004006b5 <+64>:	add    $0x8,%rax
+   0x00000000004006b9 <+68>:	mov    (%rax),%rax
+   0x00000000004006bc <+71>:	mov    %rax,%rdi
+   0x00000000004006bf <+74>:	callq  0x4005f6 <check_password>
+   0x00000000004006c4 <+79>:	mov    %eax,-0x4(%rbp)
+   0x00000000004006c7 <+82>:	cmpl   $0x1,-0x4(%rbp)
+   0x00000000004006cb <+86>:	jne    0x4006de 
+0>
+   0x00000000004006de <+105>:	mov    $0x400799,%edi
+   0x00000000004006e3 <+110>:	callq  0x4004b0 <puts@plt>
+   0x00000000004006e8 <+115>:	mov    $0x1,%eax
+   0x00000000004006ed <+120>:	leaveq 
+   0x00000000004006ee <+121>:	retq   
+End of assembler dump.
+<main+105>
+   0x00000000004006cd <+88>:	mov    $0x400
+Dump of assembler code for function main:
+   0x0000000000400675 <+0>:	push   %rbp
+   0x0000000000400676 <+1>:	mov    %rsp,%rbp
+   0x0000000000400679 <+4>:	sub    $0x20,%rsp
+   0x000000000040067d <+8>:	mov    %edi,-0x14(%rbp)
+   0x0000000000400680 <+11>:	mov    %rsi,-0x20(%rbp)
+   0x0000000000400684 <+15>:	cmpl   $0x2,-0x14(%rbp)
+   0x0000000000400688 <+19>:	je     0x4006b1 <main+60>
+   0x000000000040068a <+21>:	mov    -0x20(%rbp),%rax
+   0x000000000040068e <+25>:	mov    (%rax),%rdx
+   0x0000000000400691 <+28>:	mov    0x2009c8(%rip),%rax        # 0x601060 <stderr@@GLIBC_2.2.5>
+   0x0000000000400698 <+35>:	mov    $0x400774,%esi
+   0x000000000040069d <+40>:	mov    %rax,%rdi
+   0x00000000004006a0 <+43>:	mov    $0x0,%eax
+   0x00000000004006a5 <+48>:	callq  0x4004e0 <fprintf@plt>
+    0x00000000004006aa <+53>:	mov    $0x1,%eax
+   0x00000000004006af <+58>:	jmp    0x4006ed <main+120>
+   0x00000000004006b1 <+60>:	mov    -0x20(%rbp),%rax
+   0x00000000004006b5 <+64>:	add    $0x8,%rax
+   0x00000000004006b9 <+68>:	mov    (%rax),%rax
+   0x00000000004006bc <+71>:	mov    %rax,%rdi
+   0x00000000004006bf <+74>:	callq  0x4005f6 <check_password>
+   0x00000000004006c4 <+79>:	mov    %eax,-0x4(%rbp)
+   0x00000000004006c7 <+82>:	cmpl   $0x1,-0x4(%rbp)
+   0x00000000004006cb <+86>:	jne    0x4006de 
+0>
+   0x00000000004006de <+105>:	mov    $0x400799,%edi
+   0x00000000004006e3 <+110>:	callq  0x4004b0 <puts@plt>
+   0x00000000004006e8 <+115>:	mov    $0x1,%eax
+   0x00000000004006ed <+120>:	leaveq 
+   0x00000000004006ee <+121>:	retq   
+End of assembler dump.
+<main+105>
+   0x00000000004006cd <+88>:	mov    $0x400
+Dump of assembler code for function main:
+   0x0000000000400675 <+0>:	push   %rbp
+   0x0000000000400676 <+1>:	mov    %rsp,%rbp
+   0x0000000000400679 <+4>:	sub    $0x20,%rsp
+   0x000000000040067d <+8>:	mov    %edi,-0x14(%rbp)
+   0x0000000000400680 <+11>:	mov    %rsi,-0x20(%rbp)
+   0x0000000000400684 <+15>:	cmpl   $0x2,-0x14(%rbp)
+   0x0000000000400688 <+19>:	je     0x4006b1 <main+60>
+   0x000000000040068a <+21>:	mov    -0x20(%rbp),%rax
+   0x000000000040068e <+25>:	mov    (%rax),%rdx
+   0x0000000000400691 <+28>:	mov    0x2009c8(%rip),%rax        # 0x601060 <stderr@@GLIBC_2.2.5>
+   0x0000000000400698 <+35>:	mov    $0x400774,%esi
+   0x000000000040069d <+40>:	mov    %rax,%rdi
+   0x00000000004006a0 <+43>:	mov    $0x0,%eax
+   0x00000000004006a5 <+48>:	callq  0x4004e0 <fprintf@plt>
+    0x00000000004006aa <+53>:	mov    $0x1,%eax
+   0x00000000004006af <+58>:	jmp    0x4006ed <main+120>
+   0x00000000004006b1 <+60>:	mov    -0x20(%rbp),%rax
+   0x00000000004006b5 <+64>:	add    $0x8,%rax
+   0x00000000004006b9 <+68>:	mov    (%rax),%rax
+   0x00000000004006bc <+71>:	mov    %rax,%rdi
+   0x00000000004006bf <+74>:	callq  0x4005f6 <check_password>
+   0x00000000004006c4 <+79>:	mov    %eax,-0x4(%rbp)
+   0x00000000004006c7 <+82>:	cmpl   $0x1,-0x4(%rbp)
+   0x00000000004006cb <+86>:	jne    0x4006de 
+0>
+   0x00000000004006de <+105>:	mov    $0x400799,%edi
+   0x00000000004006e3 <+110>:	callq  0x4004b0 <puts@plt>
+   0x00000000004006e8 <+115>:	mov    $0x1,%eax
+   0x00000000004006ed <+120>:	leaveq 
+   0x00000000004006ee <+121>:	retq   
+End of assembler dump.
+<main+105>
+   0x00000000004006cd <+88>:	mov    $0x400
+Dump of assembler code for function main:
+   0x0000000000400675 <+0>:	push   %rbp
+   0x0000000000400676 <+1>:	mov    %rsp,%rbp
+   0x0000000000400679 <+4>:	sub    $0x20,%rsp
+   0x000000000040067d <+8>:	mov    %edi,-0x14(%rbp)
+   0x0000000000400680 <+11>:	mov    %rsi,-0x20(%rbp)
+   0x0000000000400684 <+15>:	cmpl   $0x2,-0x14(%rbp)
+   0x0000000000400688 <+19>:	je     0x4006b1 <main+60>
+   0x000000000040068a <+21>:	mov    -0x20(%rbp),%rax
+   0x000000000040068e <+25>:	mov    (%rax),%rdx
+   0x0000000000400691 <+28>:	mov    0x2009c8(%rip),%rax        # 0x601060 <stderr@@GLIBC_2.2.5>
+   0x0000000000400698 <+35>:	mov    $0x400774,%esi
+   0x000000000040069d <+40>:	mov    %rax,%rdi
+   0x00000000004006a0 <+43>:	mov    $0x0,%eax
+   0x00000000004006a5 <+48>:	callq  0x4004e0 <fprintf@plt>
+    0x00000000004006aa <+53>:	mov    $0x1,%eax
+   0x00000000004006af <+58>:	jmp    0x4006ed <main+120>
+   0x00000000004006b1 <+60>:	mov    -0x20(%rbp),%rax
+   0x00000000004006b5 <+64>:	add    $0x8,%rax
+   0x00000000004006b9 <+68>:	mov    (%rax),%rax
+   0x00000000004006bc <+71>:	mov    %rax,%rdi
+   0x00000000004006bf <+74>:	callq  0x4005f6 <check_password>
+   0x00000000004006c4 <+79>:	mov    %eax,-0x4(%rbp)
+   0x00000000004006c7 <+82>:	cmpl   $0x1,-0x4(%rbp)
+   0x00000000004006cb <+86>:	jne    0x4006de 
+0>
+   0x00000000004006de <+105>:	mov    $0x400799,%edi
+   0x00000000004006e3 <+110>:	callq  0x4004b0 <puts@plt>
+   0x00000000004006e8 <+115>:	mov    $0x1,%eax
+   0x00000000004006ed <+120>:	leaveq 
+   0x00000000004006ee <+121>:	retq   
+End of assembler dump.
+<main+105>
+   0x00000000004006cd <+88>:	mov    $0x400
+Dump of assembler code for function main:
+   0x0000000000400675 <+0>:	push   %rbp
+   0x0000000000400676 <+1>:	mov    %rsp,%rbp
+   0x0000000000400679 <+4>:	sub    $0x20,%rsp
+   0x000000000040067d <+8>:	mov    %edi,-0x14(%rbp)
+   0x0000000000400680 <+11>:	mov    %rsi,-0x20(%rbp)
+   0x0000000000400684 <+15>:	cmpl   $0x2,-0x14(%rbp)
+   0x0000000000400688 <+19>:	je     0x4006b1 <main+60>
+   0x000000000040068a <+21>:	mov    -0x20(%rbp),%rax
+   0x000000000040068e <+25>:	mov    (%rax),%rdx
+   0x0000000000400691 <+28>:	mov    0x2009c8(%rip),%rax        # 0x601060 <stderr@@GLIBC_2.2.5>
+   0x0000000000400698 <+35>:	mov    $0x400774,%esi
+   0x000000000040069d <+40>:	mov    %rax,%rdi
+   0x00000000004006a0 <+43>:	mov    $0x0,%eax
+   0x00000000004006a5 <+48>:	callq  0x4004e0 <fprintf@plt>
+    0x00000000004006aa <+53>:	mov    $0x1,%eax
+   0x00000000004006af <+58>:	jmp    0x4006ed <main+120>
+   0x00000000004006b1 <+60>:	mov    -0x20(%rbp),%rax
+   0x00000000004006b5 <+64>:	add    $0x8,%rax
+   0x00000000004006b9 <+68>:	mov    (%rax),%rax
+   0x00000000004006bc <+71>:	mov    %rax,%rdi
+   0x00000000004006bf <+74>:	callq  0x4005f6 <check_password>
+   0x00000000004006c4 <+79>:	mov    %eax,-0x4(%rbp)
+   0x00000000004006c7 <+82>:	cmpl   $0x1,-0x4(%rbp)
+   0x00000000004006cb <+86>:	jne    0x4006de 
+0>
+   0x00000000004006de <+105>:	mov    $0x400799,%edi
+   0x00000000004006e3 <+110>:	callq  0x4004b0 <puts@plt>
+   0x00000000004006e8 <+115>:	mov    $0x1,%eax
+   0x00000000004006ed <+120>:	leaveq 
+   0x00000000004006ee <+121>:	retq   
+End of assembler dump.
+<main+105>
+   0x00000000004006cd <+88>:	mov    $0x400
+Dump of assembler code for function main:
+   0x0000000000400675 <+0>:	push   %rbp
+   0x0000000000400676 <+1>:	mov    %rsp,%rbp
+   0x0000000000400679 <+4>:	sub    $0x20,%rsp
+   0x000000000040067d <+8>:	mov    %edi,-0x14(%rbp)
+   0x0000000000400680 <+11>:	mov    %rsi,-0x20(%rbp)
+   0x0000000000400684 <+15>:	cmpl   $0x2,-0x14(%rbp)
+   0x0000000000400688 <+19>:	je     0x4006b1 <main+60>
+   0x000000000040068a <+21>:	mov    -0x20(%rbp),%rax
+   0x000000000040068e <+25>:	mov    (%rax),%rdx
+   0x0000000000400691 <+28>:	mov    0x2009c8(%rip),%rax        # 0x601060 <stderr@@GLIBC_2.2.5>
+   0x0000000000400698 <+35>:	mov    $0x400774,%esi
+   0x000000000040069d <+40>:	mov    %rax,%rdi
+   0x00000000004006a0 <+43>:	mov    $0x0,%eax
+   0x00000000004006a5 <+48>:	callq  0x4004e0 <fprintf@plt>
+    0x00000000004006aa <+53>:	mov    $0x1,%eax
+   0x00000000004006af <+58>:	jmp    0x4006ed <main+120>
+   0x00000000004006b1 <+60>:	mov    -0x20(%rbp),%rax
+   0x00000000004006b5 <+64>:	add    $0x8,%rax
+   0x00000000004006b9 <+68>:	mov    (%rax),%rax
+   0x00000000004006bc <+71>:	mov    %rax,%rdi
+   0x00000000004006bf <+74>:	callq  0x4005f6 <check_password>
+   0x00000000004006c4 <+79>:	mov    %eax,-0x4(%rbp)
+   0x00000000004006c7 <+82>:	cmpl   $0x1,-0x4(%rbp)
+   0x00000000004006cb <+86>:	jne    0x4006de 
+0>
+   0x00000000004006de <+105>:	mov    $0x400799,%edi
+   0x00000000004006e3 <+110>:	callq  0x4004b0 <puts@plt>
+   0x00000000004006e8 <+115>:	mov    $0x1,%eax
+   0x00000000004006ed <+120>:	leaveq 
+   0x00000000004006ee <+121>:	retq   
+End of assembler dump.
+<main+105>
+   0x00000000004006cd <+88>:	mov    $0x400
+Dump of assembler code for function main:
+   0x0000000000400675 <+0>:	push   %rbp
+   0x0000000000400676 <+1>:	mov    %rsp,%rbp
+   0x0000000000400679 <+4>:	sub    $0x20,%rsp
+   0x000000000040067d <+8>:	mov    %edi,-0x14(%rbp)
+   0x0000000000400680 <+11>:	mov    %rsi,-0x20(%rbp)
+   0x0000000000400684 <+15>:	cmpl   $0x2,-0x14(%rbp)
+   0x0000000000400688 <+19>:	je     0x4006b1 <main+60>
+   0x000000000040068a <+21>:	mov    -0x20(%rbp),%rax
+   0x000000000040068e <+25>:	mov    (%rax),%rdx
+   0x0000000000400691 <+28>:	mov    0x2009c8(%rip),%rax        # 0x601060 <stderr@@GLIBC_2.2.5>
+   0x0000000000400698 <+35>:	mov    $0x400774,%esi
+   0x000000000040069d <+40>:	mov    %rax,%rdi
+   0x00000000004006a0 <+43>:	mov    $0x0,%eax
+   0x00000000004006a5 <+48>:	callq  0x4004e0 <fprintf@plt>
+    0x00000000004006aa <+53>:	mov    $0x1,%eax
+   0x00000000004006af <+58>:	jmp    0x4006ed <main+120>
+   0x00000000004006b1 <+60>:	mov    -0x20(%rbp),%rax
+   0x00000000004006b5 <+64>:	add    $0x8,%rax
+   0x00000000004006b9 <+68>:	mov    (%rax),%rax
+   0x00000000004006bc <+71>:	mov    %rax,%rdi
+   0x00000000004006bf <+74>:	callq  0x4005f6 <check_password>
+   0x00000000004006c4 <+79>:	mov    %eax,-0x4(%rbp)
+   0x00000000004006c7 <+82>:	cmpl   $0x1,-0x4(%rbp)
+   0x00000000004006cb <+86>:	jne    0x4006de 
+0>
+   0x00000000004006de <+105>:	mov    $0x400799,%edi
+   0x00000000004006e3 <+110>:	callq  0x4004b0 <puts@plt>
+   0x00000000004006e8 <+115>:	mov    $0x1,%eax
+   0x00000000004006ed <+120>:	leaveq 
+   0x00000000004006ee <+121>:	retq   
+End of assembler dump.
+<main+105>
+   0x00000000004006cd <+88>:	mov    $0x400
+Dump of assembler code for function main:
+   0x0000000000400675 <+0>:	push   %rbp
+   0x0000000000400676 <+1>:	mov    %rsp,%rbp
+   0x0000000000400679 <+4>:	sub    $0x20,%rsp
+   0x000000000040067d <+8>:	mov    %edi,-0x14(%rbp)
+   0x0000000000400680 <+11>:	mov    %rsi,-0x20(%rbp)
+   0x0000000000400684 <+15>:	cmpl   $0x2,-0x14(%rbp)
+   0x0000000000400688 <+19>:	je     0x4006b1 <main+60>
+   0x000000000040068a <+21>:	mov    -0x20(%rbp),%rax
+   0x000000000040068e <+25>:	mov    (%rax),%rdx
+   0x0000000000400691 <+28>:	mov    0x2009c8(%rip),%rax        # 0x601060 <stderr@@GLIBC_2.2.5>
+   0x0000000000400698 <+35>:	mov    $0x400774,%esi
+   0x000000000040069d <+40>:	mov    %rax,%rdi
+   0x00000000004006a0 <+43>:	mov    $0x0,%eax
+   0x00000000004006a5 <+48>:	callq  0x4004e0 <fprintf@plt>
+    0x00000000004006aa <+53>:	mov    $0x1,%eax
+   0x00000000004006af <+58>:	jmp    0x4006ed <main+120>
+   0x00000000004006b1 <+60>:	mov    -0x20(%rbp),%rax
+   0x00000000004006b5 <+64>:	add    $0x8,%rax
+   0x00000000004006b9 <+68>:	mov    (%rax),%rax
+   0x00000000004006bc <+71>:	mov    %rax,%rdi
+   0x00000000004006bf <+74>:	callq  0x4005f6 <check_password>
+   0x00000000004006c4 <+79>:	mov    %eax,-0x4(%rbp)
+   0x00000000004006c7 <+82>:	cmpl   $0x1,-0x4(%rbp)
+   0x00000000004006cb <+86>:	jne    0x4006de 
+0>
+   0x00000000004006de <+105>:	mov    $0x400799,%edi
+   0x00000000004006e3 <+110>:	callq  0x4004b0 <puts@plt>
+   0x00000000004006e8 <+115>:	mov    $0x1,%eax
+   0x00000000004006ed <+120>:	leaveq 
+   0x00000000004006ee <+121>:	retq   
+End of assembler dump.
+<main+105>
+   0x00000000004006cd <+88>:	mov    $0x400
+Dump of assembler code for function main:
+   0x0000000000400675 <+0>:	push   %rbp
+   0x0000000000400676 <+1>:	mov    %rsp,%rbp
+   0x0000000000400679 <+4>:	sub    $0x20,%rsp
+   0x000000000040067d <+8>:	mov    %edi,-0x14(%rbp)
+   0x0000000000400680 <+11>:	mov    %rsi,-0x20(%rbp)
+   0x0000000000400684 <+15>:	cmpl   $0x2,-0x14(%rbp)
+   0x0000000000400688 <+19>:	je     0x4006b1 <main+60>
+   0x000000000040068a <+21>:	mov    -0x20(%rbp),%rax
+   0x000000000040068e <+25>:	mov    (%rax),%rdx
+   0x0000000000400691 <+28>:	mov    0x2009c8(%rip),%rax        # 0x601060 <stderr@@GLIBC_2.2.5>
+   0x0000000000400698 <+35>:	mov    $0x400774,%esi
+   0x000000000040069d <+40>:	mov    %rax,%rdi
+   0x00000000004006a0 <+43>:	mov    $0x0,%eax
+   0x00000000004006a5 <+48>:	callq  0x4004e0 <fprintf@plt>
+    0x00000000004006aa <+53>:	mov    $0x1,%eax
+   0x00000000004006af <+58>:	jmp    0x4006ed <main+120>
+   0x00000000004006b1 <+60>:	mov    -0x20(%rbp),%rax
+   0x00000000004006b5 <+64>:	add    $0x8,%rax
+   0x00000000004006b9 <+68>:	mov    (%rax),%rax
+   0x00000000004006bc <+71>:	mov    %rax,%rdi
+   0x00000000004006bf <+74>:	callq  0x4005f6 <check_password>
+   0x00000000004006c4 <+79>:	mov    %eax,-0x4(%rbp)
+   0x00000000004006c7 <+82>:	cmpl   $0x1,-0x4(%rbp)
+   0x00000000004006cb <+86>:	jne    0x4006de 
+0>
+   0x00000000004006de <+105>:	mov    $0x400799,%edi
+   0x00000000004006e3 <+110>:	callq  0x4004b0 <puts@plt>
+   0x00000000004006e8 <+115>:	mov    $0x1,%eax
+   0x00000000004006ed <+120>:	leaveq 
+   0x00000000004006ee <+121>:	retq   
+End of assembler dump.
+<main+105>
+   0x00000000004006cd <+88>:	mov    $0x400
+Dump of assembler code for function main:
+   0x0000000000400675 <+0>:	push   %rbp
+   0x0000000000400676 <+1>:	mov    %rsp,%rbp
+   0x0000000000400679 <+4>:	sub    $0x20,%rsp
+   0x000000000040067d <+8>:	mov    %edi,-0x14(%rbp)
+   0x0000000000400680 <+11>:	mov    %rsi,-0x20(%rbp)
+   0x0000000000400684 <+15>:	cmpl   $0x2,-0x14(%rbp)
+   0x0000000000400688 <+19>:	je     0x4006b1 <main+60>
+   0x000000000040068a <+21>:	mov    -0x20(%rbp),%rax
+   0x000000000040068e <+25>:	mov    (%rax),%rdx
+   0x0000000000400691 <+28>:	mov    0x2009c8(%rip),%rax        # 0x601060 <stderr@@GLIBC_2.2.5>
+   0x0000000000400698 <+35>:	mov    $0x400774,%esi
+   0x000000000040069d <+40>:	mov    %rax,%rdi
+   0x00000000004006a0 <+43>:	mov    $0x0,%eax
+   0x00000000004006a5 <+48>:	callq  0x4004e0 <fprintf@plt>
+    0x00000000004006aa <+53>:	mov    $0x1,%eax
+   0x00000000004006af <+58>:	jmp    0x4006ed <main+120>
+   0x00000000004006b1 <+60>:	mov    -0x20(%rbp),%rax
+   0x00000000004006b5 <+64>:	add    $0x8,%rax
+   0x00000000004006b9 <+68>:	mov    (%rax),%rax
+   0x00000000004006bc <+71>:	mov    %rax,%rdi
+   0x00000000004006bf <+74>:	callq  0x4005f6 <check_password>
+   0x00000000004006c4 <+79>:	mov    %eax,-0x4(%rbp)
+   0x00000000004006c7 <+82>:	cmpl   $0x1,-0x4(%rbp)
+   0x00000000004006cb <+86>:	jne    0x4006de 
+0>
+   0x00000000004006de <+105>:	mov    $0x400799,%edi
+   0x00000000004006e3 <+110>:	callq  0x4004b0 <puts@plt>
+   0x00000000004006e8 <+115>:	mov    $0x1,%eax
+   0x00000000004006ed <+120>:	leaveq 
+   0x00000000004006ee <+121>:	retq   
+End of assembler dump.
+<main+105>
+   0x00000000004006cd <+88>:	mov    $0x400
+Dump of assembler code for function main:
+   0x0000000000400675 <+0>:	push   %rbp
+   0x0000000000400676 <+1>:	mov    %rsp,%rbp
+   0x0000000000400679 <+4>:	sub    $0x20,%rsp
+   0x000000000040067d <+8>:	mov    %edi,-0x14(%rbp)
+   0x0000000000400680 <+11>:	mov    %rsi,-0x20(%rbp)
+   0x0000000000400684 <+15>:	cmpl   $0x2,-0x14(%rbp)
+   0x0000000000400688 <+19>:	je     0x4006b1 <main+60>
+   0x000000000040068a <+21>:	mov    -0x20(%rbp),%rax
+   0x000000000040068e <+25>:	mov    (%rax),%rdx
+   0x0000000000400691 <+28>:	mov    0x2009c8(%rip),%rax        # 0x601060 <stderr@@GLIBC_2.2.5>
+   0x0000000000400698 <+35>:	mov    $0x400774,%esi
+   0x000000000040069d <+40>:	mov    %rax,%rdi
+   0x00000000004006a0 <+43>:	mov    $0x0,%eax
+   0x00000000004006a5 <+48>:	callq  0x4004e0 <fprintf@plt>
+    0x00000000004006aa <+53>:	mov    $0x1,%eax
+   0x00000000004006af <+58>:	jmp    0x4006ed <main+120>
+   0x00000000004006b1 <+60>:	mov    -0x20(%rbp),%rax
+   0x00000000004006b5 <+64>:	add    $0x8,%rax
+   0x00000000004006b9 <+68>:	mov    (%rax),%rax
+   0x00000000004006bc <+71>:	mov    %rax,%rdi
+   0x00000000004006bf <+74>:	callq  0x4005f6 <check_password>
+   0x00000000004006c4 <+79>:	mov    %eax,-0x4(%rbp)
+   0x00000000004006c7 <+82>:	cmpl   $0x1,-0x4(%rbp)
+   0x00000000004006cb <+86>:	jne    0x4006de 
+0>
+   0x00000000004006de <+105>:	mov    $0x400799,%edi
+   0x00000000004006e3 <+110>:	callq  0x4004b0 <puts@plt>
+   0x00000000004006e8 <+115>:	mov    $0x1,%eax
+   0x00000000004006ed <+120>:	leaveq 
+   0x00000000004006ee <+121>:	retq   
+End of assembler dump.
+<main+105>
+   0x00000000004006cd <+88>:	mov    $0x400
+Dump of assembler code for function main:
+   0x0000000000400675 <+0>:	push   %rbp
+   0x0000000000400676 <+1>:	mov    %rsp,%rbp
+   0x0000000000400679 <+4>:	sub    $0x20,%rsp
+   0x000000000040067d <+8>:	mov    %edi,-0x14(%rbp)
+   0x0000000000400680 <+11>:	mov    %rsi,-0x20(%rbp)
+   0x0000000000400684 <+15>:	cmpl   $0x2,-0x14(%rbp)
+   0x0000000000400688 <+19>:	je     0x4006b1 <main+60>
+   0x000000000040068a <+21>:	mov    -0x20(%rbp),%rax
+   0x000000000040068e <+25>:	mov    (%rax),%rdx
+   0x0000000000400691 <+28>:	mov    0x2009c8(%rip),%rax        # 0x601060 <stderr@@GLIBC_2.2.5>
+   0x0000000000400698 <+35>:	mov    $0x400774,%esi
+   0x000000000040069d <+40>:	mov    %rax,%rdi
+   0x00000000004006a0 <+43>:	mov    $0x0,%eax
+   0x00000000004006a5 <+48>:	callq  0x4004e0 <fprintf@plt>
+    0x00000000004006aa <+53>:	mov    $0x1,%eax
+   0x00000000004006af <+58>:	jmp    0x4006ed <main+120>
+   0x00000000004006b1 <+60>:	mov    -0x20(%rbp),%rax
+   0x00000000004006b5 <+64>:	add    $0x8,%rax
+   0x00000000004006b9 <+68>:	mov    (%rax),%rax
+   0x00000000004006bc <+71>:	mov    %rax,%rdi
+   0x00000000004006bf <+74>:	callq  0x4005f6 <check_password>
+   0x00000000004006c4 <+79>:	mov    %eax,-0x4(%rbp)
+   0x00000000004006c7 <+82>:	cmpl   $0x1,-0x4(%rbp)
+   0x00000000004006cb <+86>:	jne    0x4006de 
+0>
+   0x00000000004006de <+105>:	mov    $0x400799,%edi
+   0x00000000004006e3 <+110>:	callq  0x4004b0 <puts@plt>
+   0x00000000004006e8 <+115>:	mov    $0x1,%eax
+   0x00000000004006ed <+120>:	leaveq 
+   0x00000000004006ee <+121>:	retq   
+End of assembler dump.
+<main+105>
+   0x00000000004006cd <+88>:	mov    $0x400
+Dump of assembler code for function main:
+   0x0000000000400675 <+0>:	push   %rbp
+   0x0000000000400676 <+1>:	mov    %rsp,%rbp
+   0x0000000000400679 <+4>:	sub    $0x20,%rsp
+   0x000000000040067d <+8>:	mov    %edi,-0x14(%rbp)
+   0x0000000000400680 <+11>:	mov    %rsi,-0x20(%rbp)
+   0x0000000000400684 <+15>:	cmpl   $0x2,-0x14(%rbp)
+   0x0000000000400688 <+19>:	je     0x4006b1 <main+60>
+   0x000000000040068a <+21>:	mov    -0x20(%rbp),%rax
+   0x000000000040068e <+25>:	mov    (%rax),%rdx
+   0x0000000000400691 <+28>:	mov    0x2009c8(%rip),%rax        # 0x601060 <stderr@@GLIBC_2.2.5>
+   0x0000000000400698 <+35>:	mov    $0x400774,%esi
+   0x000000000040069d <+40>:	mov    %rax,%rdi
+   0x00000000004006a0 <+43>:	mov    $0x0,%eax
+   0x00000000004006a5 <+48>:	callq  0x4004e0 <fprintf@plt>
+    0x00000000004006aa <+53>:	mov    $0x1,%eax
+   0x00000000004006af <+58>:	jmp    0x4006ed <main+120>
+   0x00000000004006b1 <+60>:	mov    -0x20(%rbp),%rax
+   0x00000000004006b5 <+64>:	add    $0x8,%rax
+   0x00000000004006b9 <+68>:	mov    (%rax),%rax
+   0x00000000004006bc <+71>:	mov    %rax,%rdi
+   0x00000000004006bf <+74>:	callq  0x4005f6 <check_password>
+   0x00000000004006c4 <+79>:	mov    %eax,-0x4(%rbp)
+   0x00000000004006c7 <+82>:	cmpl   $0x1,-0x4(%rbp)
+   0x00000000004006cb <+86>:	jne    0x4006de 
+0>
+   0x00000000004006de <+105>:	mov    $0x400799,%edi
+   0x00000000004006e3 <+110>:	callq  0x4004b0 <puts@plt>
+   0x00000000004006e8 <+115>:	mov    $0x1,%eax
+   0x00000000004006ed <+120>:	leaveq 
+   0x00000000004006ee <+121>:	retq   
+End of assembler dump.
+<main+105>
+   0x00000000004006cd <+88>:	mov    $0x400
+Dump of assembler code for function main:
+   0x0000000000400675 <+0>:	push   %rbp
+   0x0000000000400676 <+1>:	mov    %rsp,%rbp
+   0x0000000000400679 <+4>:	sub    $0x20,%rsp
+   0x000000000040067d <+8>:	mov    %edi,-0x14(%rbp)
+   0x0000000000400680 <+11>:	mov    %rsi,-0x20(%rbp)
+   0x0000000000400684 <+15>:	cmpl   $0x2,-0x14(%rbp)
+   0x0000000000400688 <+19>:	je     0x4006b1 <main+60>
+   0x000000000040068a <+21>:	mov    -0x20(%rbp),%rax
+   0x000000000040068e <+25>:	mov    (%rax),%rdx
+   0x0000000000400691 <+28>:	mov    0x2009c8(%rip),%rax        # 0x601060 <stderr@@GLIBC_2.2.5>
+   0x0000000000400698 <+35>:	mov    $0x400774,%esi
+   0x000000000040069d <+40>:	mov    %rax,%rdi
+   0x00000000004006a0 <+43>:	mov    $0x0,%eax
+   0x00000000004006a5 <+48>:	callq  0x4004e0 <fprintf@plt>
+    0x00000000004006aa <+53>:	mov    $0x1,%eax
+   0x00000000004006af <+58>:	jmp    0x4006ed <main+120>
+   0x00000000004006b1 <+60>:	mov    -0x20(%rbp),%rax
+   0x00000000004006b5 <+64>:	add    $0x8,%rax
+   0x00000000004006b9 <+68>:	mov    (%rax),%rax
+   0x00000000004006bc <+71>:	mov    %rax,%rdi
+   0x00000000004006bf <+74>:	callq  0x4005f6 <check_password>
+   0x00000000004006c4 <+79>:	mov    %eax,-0x4(%rbp)
+   0x00000000004006c7 <+82>:	cmpl   $0x1,-0x4(%rbp)
+   0x00000000004006cb <+86>:	jne    0x4006de 
+0>
+   0x00000000004006de <+105>:	mov    $0x400799,%edi
+   0x00000000004006e3 <+110>:	callq  0x4004b0 <puts@plt>
+   0x00000000004006e8 <+115>:	mov    $0x1,%eax
+   0x00000000004006ed <+120>:	leaveq 
+   0x00000000004006ee <+121>:	retq   
+End of assembler dump.
+<main+105>
+   0x00000000004006cd <+88>:	mov    $0x400
+Dump of assembler code for function main:
+   0x0000000000400675 <+0>:	push   %rbp
+   0x0000000000400676 <+1>:	mov    %rsp,%rbp
+   0x0000000000400679 <+4>:	sub    $0x20,%rsp
+   0x000000000040067d <+8>:	mov    %edi,-0x14(%rbp)
+   0x0000000000400680 <+11>:	mov    %rsi,-0x20(%rbp)
+   0x0000000000400684 <+15>:	cmpl   $0x2,-0x14(%rbp)
+   0x0000000000400688 <+19>:	je     0x4006b1 <main+60>
+   0x000000000040068a <+21>:	mov    -0x20(%rbp),%rax
+   0x000000000040068e <+25>:	mov    (%rax),%rdx
+   0x0000000000400691 <+28>:	mov    0x2009c8(%rip),%rax        # 0x601060 <stderr@@GLIBC_2.2.5>
+   0x0000000000400698 <+35>:	mov    $0x400774,%esi
+   0x000000000040069d <+40>:	mov    %rax,%rdi
+   0x00000000004006a0 <+43>:	mov    $0x0,%eax
+   0x00000000004006a5 <+48>:	callq  0x4004e0 <fprintf@plt>
+    0x00000000004006aa <+53>:	mov    $0x1,%eax
+   0x00000000004006af <+58>:	jmp    0x4006ed <main+120>
+   0x00000000004006b1 <+60>:	mov    -0x20(%rbp),%rax
+   0x00000000004006b5 <+64>:	add    $0x8,%rax
+   0x00000000004006b9 <+68>:	mov    (%rax),%rax
+   0x00000000004006bc <+71>:	mov    %rax,%rdi
+   0x00000000004006bf <+74>:	callq  0x4005f6 <check_password>
+   0x00000000004006c4 <+79>:	mov    %eax,-0x4(%rbp)
+   0x00000000004006c7 <+82>:	cmpl   $0x1,-0x4(%rbp)
+   0x00000000004006cb <+86>:	jne    0x4006de 
+0>
+   0x00000000004006de <+105>:	mov    $0x400799,%edi
+   0x00000000004006e3 <+110>:	callq  0x4004b0 <puts@plt>
+   0x00000000004006e8 <+115>:	mov    $0x1,%eax
+   0x00000000004006ed <+120>:	leaveq 
+   0x00000000004006ee <+121>:	retq   
+End of assembler dump.
+<main+105>
+   0x00000000004006cd <+88>:	mov    $0x400
+Dump of assembler code for function main:
+   0x0000000000400675 <+0>:	push   %rbp
+   0x0000000000400676 <+1>:	mov    %rsp,%rbp
+   0x0000000000400679 <+4>:	sub    $0x20,%rsp
+   0x000000000040067d <+8>:	mov    %edi,-0x14(%rbp)
+   0x0000000000400680 <+11>:	mov    %rsi,-0x20(%rbp)
+   0x0000000000400684 <+15>:	cmpl   $0x2,-0x14(%rbp)
+   0x0000000000400688 <+19>:	je     0x4006b1 <main+60>
+   0x000000000040068a <+21>:	mov    -0x20(%rbp),%rax
+   0x000000000040068e <+25>:	mov    (%rax),%rdx
+   0x0000000000400691 <+28>:	mov    0x2009c8(%rip),%rax        # 0x601060 <stderr@@GLIBC_2.2.5>
+   0x0000000000400698 <+35>:	mov    $0x400774,%esi
+   0x000000000040069d <+40>:	mov    %rax,%rdi
+   0x00000000004006a0 <+43>:	mov    $0x0,%eax
+   0x00000000004006a5 <+48>:	callq  0x4004e0 <fprintf@plt>
+    0x00000000004006aa <+53>:	mov    $0x1,%eax
+   0x00000000004006af <+58>:	jmp    0x4006ed <main+120>
+   0x00000000004006b1 <+60>:	mov    -0x20(%rbp),%rax
+   0x00000000004006b5 <+64>:	add    $0x8,%rax
+   0x00000000004006b9 <+68>:	mov    (%rax),%rax
+   0x00000000004006bc <+71>:	mov    %rax,%rdi
+   0x00000000004006bf <+74>:	callq  0x4005f6 <check_password>
+   0x00000000004006c4 <+79>:	mov    %eax,-0x4(%rbp)
+   0x00000000004006c7 <+82>:	cmpl   $0x1,-0x4(%rbp)
+   0x00000000004006cb <+86>:	jne    0x4006de 
+0>
+   0x00000000004006de <+105>:	mov    $0x400799,%edi
+   0x00000000004006e3 <+110>:	callq  0x4004b0 <puts@plt>
+   0x00000000004006e8 <+115>:	mov    $0x1,%eax
+   0x00000000004006ed <+120>:	leaveq 
+   0x00000000004006ee <+121>:	retq   
+End of assembler dump.
+<main+105>
+   0x00000000004006cd <+88>:	mov    $0x400
+Dump of assembler code for function main:
+   0x0000000000400675 <+0>:	push   %rbp
+   0x0000000000400676 <+1>:	mov    %rsp,%rbp
+   0x0000000000400679 <+4>:	sub    $0x20,%rsp
+   0x000000000040067d <+8>:	mov    %edi,-0x14(%rbp)
+   0x0000000000400680 <+11>:	mov    %rsi,-0x20(%rbp)
+   0x0000000000400684 <+15>:	cmpl   $0x2,-0x14(%rbp)
+   0x0000000000400688 <+19>:	je     0x4006b1 <main+60>
+   0x000000000040068a <+21>:	mov    -0x20(%rbp),%rax
+   0x000000000040068e <+25>:	mov    (%rax),%rdx
+   0x0000000000400691 <+28>:	mov    0x2009c8(%rip),%rax        # 0x601060 <stderr@@GLIBC_2.2.5>
+   0x0000000000400698 <+35>:	mov    $0x400774,%esi
+   0x000000000040069d <+40>:	mov    %rax,%rdi
+   0x00000000004006a0 <+43>:	mov    $0x0,%eax
+   0x00000000004006a5 <+48>:	callq  0x4004e0 <fprintf@plt>
+    0x00000000004006aa <+53>:	mov    $0x1,%eax
+   0x00000000004006af <+58>:	jmp    0x4006ed <main+120>
+   0x00000000004006b1 <+60>:	mov    -0x20(%rbp),%rax
+   0x00000000004006b5 <+64>:	add    $0x8,%rax
+   0x00000000004006b9 <+68>:	mov    (%rax),%rax
+   0x00000000004006bc <+71>:	mov    %rax,%rdi
+   0x00000000004006bf <+74>:	callq  0x4005f6 <check_password>
+   0x00000000004006c4 <+79>:	mov    %eax,-0x4(%rbp)
+   0x00000000004006c7 <+82>:	cmpl   $0x1,-0x4(%rbp)
+   0x00000000004006cb <+86>:	jne    0x4006de 
+0>
+   0x00000000004006de <+105>:	mov    $0x400799,%edi
+   0x00000000004006e3 <+110>:	callq  0x4004b0 <puts@plt>
+   0x00000000004006e8 <+115>:	mov    $0x1,%eax
+   0x00000000004006ed <+120>:	leaveq 
+   0x00000000004006ee <+121>:	retq   
+End of assembler dump.
+<main+105>
+   0x00000000004006cd <+88>:	mov    $0x400
+Dump of assembler code for function main:
+   0x0000000000400675 <+0>:	push   %rbp
+   0x0000000000400676 <+1>:	mov    %rsp,%rbp
+   0x0000000000400679 <+4>:	sub    $0x20,%rsp
+   0x000000000040067d <+8>:	mov    %edi,-0x14(%rbp)
+   0x0000000000400680 <+11>:	mov    %rsi,-0x20(%rbp)
+   0x0000000000400684 <+15>:	cmpl   $0x2,-0x14(%rbp)
+   0x0000000000400688 <+19>:	je     0x4006b1 <main+60>
+   0x000000000040068a <+21>:	mov    -0x20(%rbp),%rax
+   0x000000000040068e <+25>:	mov    (%rax),%rdx
+   0x0000000000400691 <+28>:	mov    0x2009c8(%rip),%rax        # 0x601060 <stderr@@GLIBC_2.2.5>
+   0x0000000000400698 <+35>:	mov    $0x400774,%esi
+   0x000000000040069d <+40>:	mov    %rax,%rdi
+   0x00000000004006a0 <+43>:	mov    $0x0,%eax
+   0x00000000004006a5 <+48>:	callq  0x4004e0 <fprintf@plt>
+    0x00000000004006aa <+53>:	mov    $0x1,%eax
+   0x00000000004006af <+58>:	jmp    0x4006ed <main+120>
+   0x00000000004006b1 <+60>:	mov    -0x20(%rbp),%rax
+   0x00000000004006b5 <+64>:	add    $0x8,%rax
+   0x00000000004006b9 <+68>:	mov    (%rax),%rax
+   0x00000000004006bc <+71>:	mov    %rax,%rdi
+   0x00000000004006bf <+74>:	callq  0x4005f6 <check_password>
+   0x00000000004006c4 <+79>:	mov    %eax,-0x4(%rbp)
+   0x00000000004006c7 <+82>:	cmpl   $0x1,-0x4(%rbp)
+   0x00000000004006cb <+86>:	jne    0x4006de 
+0>
+   0x00000000004006de <+105>:	mov    $0x400799,%edi
+   0x00000000004006e3 <+110>:	callq  0x4004b0 <puts@plt>
+   0x00000000004006e8 <+115>:	mov    $0x1,%eax
+   0x00000000004006ed <+120>:	leaveq 
+   0x00000000004006ee <+121>:	retq   
+End of assembler dump.
+<main+105>
+   0x00000000004006cd <+88>:	mov    $0x400
+Dump of assembler code for function main:
+   0x0000000000400675 <+0>:	push   %rbp
+   0x0000000000400676 <+1>:	mov    %rsp,%rbp
+   0x0000000000400679 <+4>:	sub    $0x20,%rsp
+   0x000000000040067d <+8>:	mov    %edi,-0x14(%rbp)
+   0x0000000000400680 <+11>:	mov    %rsi,-0x20(%rbp)
+   0x0000000000400684 <+15>:	cmpl   $0x2,-0x14(%rbp)
+   0x0000000000400688 <+19>:	je     0x4006b1 <main+60>
+   0x000000000040068a <+21>:	mov    -0x20(%rbp),%rax
+   0x000000000040068e <+25>:	mov    (%rax),%rdx
+   0x0000000000400691 <+28>:	mov    0x2009c8(%rip),%rax        # 0x601060 <stderr@@GLIBC_2.2.5>
+   0x0000000000400698 <+35>:	mov    $0x400774,%esi
+   0x000000000040069d <+40>:	mov    %rax,%rdi
+   0x00000000004006a0 <+43>:	mov    $0x0,%eax
+   0x00000000004006a5 <+48>:	callq  0x4004e0 <fprintf@plt>
+    0x00000000004006aa <+53>:	mov    $0x1,%eax
+   0x00000000004006af <+58>:	jmp    0x4006ed <main+120>
+   0x00000000004006b1 <+60>:	mov    -0x20(%rbp),%rax
+   0x00000000004006b5 <+64>:	add    $0x8,%rax
+   0x00000000004006b9 <+68>:	mov    (%rax),%rax
+   0x00000000004006bc <+71>:	mov    %rax,%rdi
+   0x00000000004006bf <+74>:	callq  0x4005f6 <check_password>
+   0x00000000004006c4 <+79>:	mov    %eax,-0x4(%rbp)
+   0x00000000004006c7 <+82>:	cmpl   $0x1,-0x4(%rbp)
+   0x00000000004006cb <+86>:	jne    0x4006de 
+0>
+   0x00000000004006de <+105>:	mov    $0x400799,%edi
+   0x00000000004006e3 <+110>:	callq  0x4004b0 <puts@plt>
+   0x00000000004006e8 <+115>:	mov    $0x1,%eax
+   0x00000000004006ed <+120>:	leaveq 
+   0x00000000004006ee <+121>:	retq   
+End of assembler dump.
+<main+105>
+   0x00000000004006cd <+88>:	mov    $0x400
+Dump of assembler code for function main:
+   0x0000000000400675 <+0>:	push   %rbp
+   0x0000000000400676 <+1>:	mov    %rsp,%rbp
+   0x0000000000400679 <+4>:	sub    $0x20,%rsp
+   0x000000000040067d <+8>:	mov    %edi,-0x14(%rbp)
+   0x0000000000400680 <+11>:	mov    %rsi,-0x20(%rbp)
+   0x0000000000400684 <+15>:	cmpl   $0x2,-0x14(%rbp)
+   0x0000000000400688 <+19>:	je     0x4006b1 <main+60>
+   0x000000000040068a <+21>:	mov    -0x20(%rbp),%rax
+   0x000000000040068e <+25>:	mov    (%rax),%rdx
+   0x0000000000400691 <+28>:	mov    0x2009c8(%rip),%rax        # 0x601060 <stderr@@GLIBC_2.2.5>
+   0x0000000000400698 <+35>:	mov    $0x400774,%esi
+   0x000000000040069d <+40>:	mov    %rax,%rdi
+   0x00000000004006a0 <+43>:	mov    $0x0,%eax
+   0x00000000004006a5 <+48>:	callq  0x4004e0 <fprintf@plt>
+    0x00000000004006aa <+53>:	mov    $0x1,%eax
+   0x00000000004006af <+58>:	jmp    0x4006ed <main+120>
+   0x00000000004006b1 <+60>:	mov    -0x20(%rbp),%rax
+   0x00000000004006b5 <+64>:	add    $0x8,%rax
+   0x00000000004006b9 <+68>:	mov    (%rax),%rax
+   0x00000000004006bc <+71>:	mov    %rax,%rdi
+   0x00000000004006bf <+74>:	callq  0x4005f6 <check_password>
+   0x00000000004006c4 <+79>:	mov    %eax,-0x4(%rbp)
+   0x00000000004006c7 <+82>:	cmpl   $0x1,-0x4(%rbp)
+   0x00000000004006cb <+86>:	jne    0x4006de 
+0>
+   0x00000000004006de <+105>:	mov    $0x400799,%edi
+   0x00000000004006e3 <+110>:	callq  0x4004b0 <puts@plt>
+   0x00000000004006e8 <+115>:	mov    $0x1,%eax
+   0x00000000004006ed <+120>:	leaveq 
+   0x00000000004006ee <+121>:	retq   
+End of assembler dump.
+<main+105>
+   0x00000000004006cd <+88>:	mov    $0x400
+Dump of assembler code for function main:
+   0x0000000000400675 <+0>:	push   %rbp
+   0x0000000000400676 <+1>:	mov    %rsp,%rbp
+   0x0000000000400679 <+4>:	sub    $0x20,%rsp
+   0x000000000040067d <+8>:	mov    %edi,-0x14(%rbp)
+   0x0000000000400680 <+11>:	mov    %rsi,-0x20(%rbp)
+   0x0000000000400684 <+15>:	cmpl   $0x2,-0x14(%rbp)
+   0x0000000000400688 <+19>:	je     0x4006b1 <main+60>
+   0x000000000040068a <+21>:	mov    -0x20(%rbp),%rax
+   0x000000000040068e <+25>:	mov    (%rax),%rdx
+   0x0000000000400691 <+28>:	mov    0x2009c8(%rip),%rax        # 0x601060 <stderr@@GLIBC_2.2.5>
+   0x0000000000400698 <+35>:	mov    $0x400774,%esi
+   0x000000000040069d <+40>:	mov    %rax,%rdi
+   0x00000000004006a0 <+43>:	mov    $0x0,%eax
+   0x00000000004006a5 <+48>:	callq  0x4004e0 <fprintf@plt>
+    0x00000000004006aa <+53>:	mov    $0x1,%eax
+   0x00000000004006af <+58>:	jmp    0x4006ed <main+120>
+   0x00000000004006b1 <+60>:	mov    -0x20(%rbp),%rax
+   0x00000000004006b5 <+64>:	add    $0x8,%rax
+   0x00000000004006b9 <+68>:	mov    (%rax),%rax
+   0x00000000004006bc <+71>:	mov    %rax,%rdi
+   0x00000000004006bf <+74>:	callq  0x4005f6 <check_password>
+   0x00000000004006c4 <+79>:	mov    %eax,-0x4(%rbp)
+   0x00000000004006c7 <+82>:	cmpl   $0x1,-0x4(%rbp)
+   0x00000000004006cb <+86>:	jne    0x4006de 
+0>
+   0x00000000004006de <+105>:	mov    $0x400799,%edi
+   0x00000000004006e3 <+110>:	callq  0x4004b0 <puts@plt>
+   0x00000000004006e8 <+115>:	mov    $0x1,%eax
+   0x00000000004006ed <+120>:	leaveq 
+   0x00000000004006ee <+121>:	retq   
+End of assembler dump.
+<main+105>
+   0x00000000004006cd <+88>:	mov    $0x400
