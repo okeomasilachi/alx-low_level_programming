@@ -23,13 +23,13 @@ mask >>= 1;
 
 if (first_one == -1)
 {
-putchar('0');
+_putchar('0');
 }
 else
 {
 for (i = first_one; i < sizeof(unsigned long int) * 8; i++)
 {
-putchar((n & mask) ? '1' : '0');
+_putchar((n & mask) ? '1' : '0');
 mask >>= 1;
 }
 }
