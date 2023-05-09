@@ -22,7 +22,7 @@ int main(int ac, char **av)
 	buf = malloc(BUF_OKI);
 	while ((nr = read(ff, buf, BUF_OKI)) > 0)
 		nw = write(ft, buf, nr);
-	
+
 	if (nr == -1 || ff == -1)
 	{
 		close(ft);
@@ -31,7 +31,7 @@ int main(int ac, char **av)
 	if (nw == -1 || ft == -1)
 	{
 		close(ff);
-		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", av[2]), exit(99);		
+		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", av[2]), exit(99);
 	}
 	free(buf);
 	ffc = close(ff), ftc = close(ft);
