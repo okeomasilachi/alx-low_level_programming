@@ -45,7 +45,8 @@ int del_node(dlistint_t **head, unsigned int index, unsigned int len)
 	unsigned int i;
 
 	(void)head;
-	if (index == len)
+
+	if (index == (len - 1))
 	{
 		cur = (*head);
 		for (i = 0; i != (index); i++)
@@ -60,7 +61,7 @@ int del_node(dlistint_t **head, unsigned int index, unsigned int len)
 	else
 	{
 		cur = (*head);
-		for (i = 0; i != (index); i++)
+		for (i = 0; i != index; i++)
 			(*head) = (*head)->next;
 
 		(*head)->prev->next = (*head)->next;
