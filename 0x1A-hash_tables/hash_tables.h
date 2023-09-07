@@ -5,8 +5,6 @@
 #include <string.h>
 #include <stdio.h>
 
-#define is ==
-#define is_not !=
 
 /**
  * struct hash_node_s - Node of a hash table
