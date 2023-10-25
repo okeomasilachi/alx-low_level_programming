@@ -1,0 +1,4 @@
+all: school
+
+school:
+	gcc test.c -o school
