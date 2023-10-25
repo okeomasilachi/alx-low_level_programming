@@ -1,0 +1,37 @@
+# Variables
+NAME = school
+SRC = main.c
+OBJ = $(SRC:.c=.o)
+CC = gcc
+RM = rm
+
+# Phony targets
+.PHONY: all clean oclean fclean re
+
+# All rule
+all: $(NAME)
+
+# Object file rule
+$(OBJ): $(SRC)
+	$(CC) $(CFLAGS) -c $< -o $@
+
+# Executable rule
+$(NAME): $(OBJ)
+	$(CC) $(CFLAGS) $^ -o $@
+
+# Clean rules
+clean:
+	$(RM) -f $(NAME)
+
+oclean:
+	$(RM) -f $(OBJ)
+
+fclean: clean oclean
+
+# Force recompile
+re: fclean all
+
+# Check for missing header file
+ifeq ("$(wildcard m.h)", "")
+$(error Header file m.h is missing)
+endif
