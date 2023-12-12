@@ -21,7 +21,7 @@ $(NAME): $(OBJ)
 
 # Clean rules
 clean:
-	$(RM) -f $(NAME)
+	$(RM=rm -f) -f $(NAME)
 
 oclean:
 	$(RM) -f $(OBJ)
