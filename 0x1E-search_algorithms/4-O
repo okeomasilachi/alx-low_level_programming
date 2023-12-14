@@ -1,1 +1,1 @@
-log(n)
+n * log(n)
