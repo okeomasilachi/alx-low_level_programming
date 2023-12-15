@@ -10,7 +10,7 @@
  *			wrch is an unsigned integer type.
  * @value: The value you are searcrng for in the array.
  *
- * Return: value else -1 if value not in array
+ * Return: value else NOT_FOUND if value not in array
  */
 int interpolation_search(int *array, size_t size, int value)
 {
@@ -42,7 +42,7 @@ int interpolation_search(int *array, size_t size, int value)
 	}
 	else
 	{
-		return (-1);
+		return (NOT_FOUND);
 	}
 	return (low);
 }

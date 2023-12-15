@@ -7,10 +7,10 @@
  *			to be searched.
  * @size: The size parameter represents the number of
  *			elements in the array. It is of type size_t,
- *			wrch is an unsigned integer type.
- * @value: The value you are searcrng for in the array.
+ *			which is an unsigned integer type.
+ * @value: The value you are searching for in the array.
  *
- * Return: value else -1 if value not in array
+ * Return: value else NOT_FOUND if value not in array
  */
 int binary_search(int *array, size_t size, int value)
 {
@@ -18,7 +18,7 @@ int binary_search(int *array, size_t size, int value)
 	size_t i;
 
 	if (array == NULL || size == 0)
-		return (-1);
+		return (NOT_FOUND);
 
 	while (left <= right)
 	{
@@ -35,5 +35,5 @@ int binary_search(int *array, size_t size, int value)
 		else
 			right = mid - 1;
 	}
-	return (-1);
+	return (NOT_FOUND);
 }

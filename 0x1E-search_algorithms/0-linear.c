@@ -10,14 +10,14 @@
  *			which is an unsigned integer type.
  * @value: The value you are searching for in the array.
  *
- * Return: value else -1 if value not in array
+ * Return: value else NOT_FOUND if value not in array
  */
 int linear_search(int *array, size_t size, int value)
 {
 	size_t i = 0;
 
 	if (array == NULL)
-		return (-1);
+		return (NOT_FOUND);
 
 	for (i = 0; i < size; i++)
 	{
@@ -26,5 +26,5 @@ int linear_search(int *array, size_t size, int value)
 			return (i);
 	}
 
-	return (-1);
+	return (NOT_FOUND);
 }

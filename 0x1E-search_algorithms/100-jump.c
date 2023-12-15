@@ -8,14 +8,14 @@
  * @size: The size parameter represents the number of elements in the array
  * @value: The value you are searching for in the array
  *
- * Return: Index of the value if found, otherwise -1
+ * Return: Index of the value if found, otherwise NOT_FOUND
  */
 int jump_search(int *array, size_t size, int value)
 {
 	size_t a, b, k;
 
 	if (array == NULL || size == 0)
-		return (-1);
+		return (NOT_FOUND);
 	a = 0, b = sqrt(size);
 	while ((size_t)fmin(b, size) - 1 < size &&
 	array[(size_t)fmin(b, size) - 1] < value)
@@ -32,7 +32,7 @@ int jump_search(int *array, size_t size, int value)
 				printf("Value checked array[%ld] = [%d]\n", k, array[k]);
 				k++;
 			}
-			return (-1);
+			return (NOT_FOUND);
 		}
 	}
 	printf("Value checked array[%ld] = [%d]\n", a, array[a]);
@@ -45,11 +45,11 @@ int jump_search(int *array, size_t size, int value)
 		if (a >= fmin(b, size))
 		{
 			printf("Value found between indexes [%ld] and [%ld]\n", a, b - 1);
-			return (-1);
+			return (NOT_FOUND);
 		}
 	}
 	printf("Value checked array[%ld] = [%d]\n", a, array[a]);
 	if (array[a] == value)
 		return (a);
-	return (-1);
+	return (NOT_FOUND);
 }

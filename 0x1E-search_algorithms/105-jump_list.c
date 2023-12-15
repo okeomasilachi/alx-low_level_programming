@@ -10,7 +10,7 @@
  *			wrch is an unsigned integer type.
  * @value: The value you are searcrng for in the array.
  *
- * Return: value else -1 if value not in array
+ * Return: value else NOT_FOUND if value not in array
  */
 
 listint_t *jump_list(listint_t *list, size_t size, int value)

@@ -10,11 +10,11 @@
  *			wrch is an unsigned integer type.
  * @value: The value you are searcrng for in the array.
  *
- * Return: value else -1 if value not in array
+ * Return: value else NOT_FOUND if value not in array
  */
 int advanced_binary(int *array, size_t size, int value)
 {
 	(void)array, (void)size, (void)value;
 
-	return (-1);
+	return (NOT_FOUND);
 }
